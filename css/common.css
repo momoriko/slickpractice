@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.slick01{
+    margin-top:50px;
+    margin-right:auto;
+    margin-left:auto;
+    width: 70%;
+}
+
+.mainvisual{
+    max-width: 1200px;
+    height:700px;
+}
+
+@media screen and (max-width:600px) { 
+    .mainvisual{
+        height:200px;
+    }
+}
+
+.mainvisual img{
+    width: 100%;
+    height: 100%;
+}
+
+.arrow-icon-left{
+    position: absolute;
+    top: 50%;
+    left: -30px;
+}
+
+.arrow-icon-right{
+    position: absolute;
+    top: 50%;
+    right: -30px;
+}
+
+/* ドットのサイズを調整 */
+.slick-dots li button:before{
+	font-size:80px!important;
+}
